@@ -1,0 +1,276 @@
+/*-----------------Index-----------------*/
+:root {
+  background-color: #bdd8a9;
+}
+.bg {
+  margin: 0;
+  padding: 0;
+  color: #25995b;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-container {
+  position: absolute;
+  bottom: 25%;
+  left: 60%;
+  letter-spacing: 5px;
+}
+
+.bg-img {
+  padding: 0%;
+  margin: 0%;
+  background-image: 100%;
+  background-image: url("../IMG/clothesline.png");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  top: 0px;
+}
+
+.bg-img-container {
+  color: rgb(79, 184, 72);
+  padding: 5%;
+  font-size: 75px;
+  font-weight: 900;
+  text-shadow: 4px 4px rgb(64, 121, 60);
+  position: relative;
+  animation: mymove 4s infinite;
+}
+
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
+
+.overlay {
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.nav-items {
+  color: #25995b;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img1 {
+  background-image: url(../IMG/windowcleaning.png);
+  width: 350px;
+  height: 300px;
+  margin: 10%;
+  border: 10px solid rgb(61, 98, 61);
+  background-size: cover;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 20%;
+  box-shadow: 10px 10px rgb(90, 81, 81, 0.3);
+}
+
+.img2 {
+  background-image: url(../IMG/gutter.png);
+  width: 350px;
+  height: 300px;
+  border: 10px solid rgb(61, 98, 61);
+  background-size: cover;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 20%;
+  box-shadow: 10px 10px rgb(90, 81, 81, 0.3);
+}
+
+.img3 {
+  background-image: url(../IMG/moss.png);
+  width: 350px;
+  height: 300px;
+  border: 10px solid rgb(61, 98, 61);
+  background-color: rgb(88, 118, 99);
+  background-size: cover;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 20%;
+  box-shadow: 10px 10px rgb(90, 81, 81, 0.3);
+}
+
+.video {
+  padding: 56.25% 0 0 0;
+  position: relative;
+}
+
+.video-target {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  background-color: rgb(52, 44, 44);
+  border: 5px solid rgb(52, 44, 44);
+}
+
+.youtube {
+  padding: 56.25% 0 0 0;
+  position: relative;
+}
+
+.youtube-target {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  background-color: rgb(52, 44, 44);
+  border: 5px solid rgb(52, 44, 44);
+}
+
+.fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 10%;
+}
+
+.button {
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  font-weight: 900;
+  background-color: rgba(76, 99, 95, 0.7);
+  color: rgb(84, 177, 134);
+  border: 3px solid rgb(127, 106, 106);
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.button:hover {
+  transform: translate(-5px) scale(1.2);
+}
+
+
+/*-----------------Contact-style-----------------*/
+.container {
+  width: auto;
+  height: 400 px;
+  position: relative;
+  color: #25995b;
+}
+
+form {
+  width: 300px;
+  margin: 5em auto;
+  background-color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 5px dashed rgb(80, 174, 66);
+  font-size: medium;
+  padding: 2em;
+  box-shadow: 0 0 0 20px rgb(75, 66, 66, 0.2);
+}
+
+.box {
+  height: 50px;
+  width: 300px;
+  background-color: none;
+  color: rgb(74, 131, 86);
+  font-size: 2em;
+  text-align: center;
+  font-weight: 900;
+  text-decoration-line: underline;
+  border: 5px solid rgb(17, 68, 28);
+  outline: 3px solid rgb(99, 189, 99);
+  border-radius: 0 30px 0 30px;
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(115px);
+  width: 70px;
+  height: 30px;
+  font-weight: 500;
+  background-color: #bdd8a9;
+  color: rgb(52, 44, 44);
+  border: 3px solid rgb(92, 76, 76);
+  cursor: pointer;
+}
+
+
+/*----------------Price-----------------*/
+.price {
+  color: rgb(85, 73, 73);
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+
+/*----------------About US-----------------*/
+.aboutus {
+  color: rgb(85, 73, 73);
+  font-size: large;
+}
+
+
+@media (max-width: 1000px) {
+  body {
+    background-color: #a2d15b;
+  }
+  .container-1 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 750px) {
+  body {
+    background-color: #d0f368;
+  }
+
+  .fixed {
+    position: fixed;
+    overflow: hidden;
+    bottom: 20px;
+    right: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background-color: #c1dd78;
+  }
+  .bg-img-container {
+    color: rgb(79, 184, 72);
+    padding: 5%;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 4px 4px rgb(64, 121, 60);
+    position: relative;
+    animation: mymove 4s infinite;
+  }
+  @keyframes mymove {
+    from {
+      top: 0px;
+    }
+    to {
+      top: 200px;
+    }
+  }
+  .overlay {
+    background-color: rgb(0, 0, 0, 0.2);
+  }
+  .fixed {
+    position: fixed;
+    overflow: hidden;
+    bottom: 0px;
+    right: 10%;
+  }
+}
